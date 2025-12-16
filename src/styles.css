@@ -8,7 +8,7 @@ body {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -59,6 +59,12 @@ body {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+}
+
+.embed {
+  margin-top: 20px;
+  width: 100%;
+  aspect-ratio: 4/3;
 }
 
 section {
@@ -163,8 +169,8 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.8)
     ),
     url("../images/footer-image.jpg");
   background-repeat: no-repeat;
